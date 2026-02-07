@@ -1,0 +1,11 @@
+# Archivos de log
+logs/
+*.log
+
+# Configuración local
+config.local
+
+# Carpetas comunes a ignorar
+node_modules/
+.env
+.DS_Store
