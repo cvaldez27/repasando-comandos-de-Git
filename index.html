@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BINAH - Optimización inteligente de prompts con IA. Transforma tus consultas simples en prompts profesionales utilizando grafos de conocimiento y razonamiento avanzado.">
+    <title>BINAH - Inteligencia de Prompts Impulsada por Grafos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-text">BINAH</span>
+                    <span class="logo-tagline">Intelligence Network</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#how-it-works">Cómo Funciona</a></li>
+                    <li><a href="#pricing">Precios</a></li>
+                    <li><a href="#contact" class="btn-secondary">Contacto</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="stars-background"></div>
+        <div class="nebula-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon"></span>
+                    Powered by Knowledge Graphs & Advanced Reasoning
+                </div>
+                <h1 class="hero-title">
+                    Transforma Palabras Simples en 
+                    <span class="gradient-text">Prompts Profesionales</span>
+                </h1>
+                <p class="hero-subtitle">
+                    BINAH utiliza grafos de conocimiento en Neo4j y razonamiento avanzado para optimizar automáticamente 
+                    tus consultas a cualquier modelo de IA. Sin necesidad de conocimientos técnicos.
+                </p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn-primary btn-large">
+                        Comienza Gratis
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#demo" class="btn-outline btn-large">
+                        Ver Demo
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">94%</div>
+                        <div class="stat-label">Mayor Efectividad</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">40%</div>
+                        <div class="stat-label">Ahorro en Tokens</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">10x</div>
+                        <div class="stat-label">Más Rápido</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Descubre más</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Product Explanation -->
+    <section class="product-explanation" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">El Problema</span>
+                <h2 class="section-title">
+                    El 90% de los usuarios no saben hacer <span class="gradient-text">prompt engineering</span>
+                </h2>
+                <p class="section-subtitle">
+                    Obtener resultados profesionales de IA requiere conocimientos técnicos que la mayoría no tiene. 
+                    BINAH democratiza el acceso a IA de nivel experto.
+                </p>
+            </div>
+
+            <div class="comparison-grid">
+                <div class="comparison-card before">
+                    <div class="comparison-header">
+                        <div class="comparison-icon error"></div>
+                        <h3>Sin BINAH</h3>
+                    </div>
+                    <div class="comparison-example">
+                        <div class="prompt-box">
+                            <span class="prompt-label">Tu prompt:</span>
+                            <p>"Resume este PDF"</p>
+                        </div>
+                        <div class="result-box poor">
+                            <span class="result-label">Resultado:</span>
+                            <ul>
+                                <li>Respuesta genérica y superficial</li>
+                                <li>Formato inconsistente</li>
+                                <li>Pérdida de información clave</li>
+                                <li>Costos innecesarios por tokens</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comparison-arrow">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                        <path d="M20 30h20M35 25l5 5-5 5" stroke="url(#gradient)" stroke-width="3" stroke-linecap="round"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#8B5CF6"/>
+                                <stop offset="100%" style="stop-color:#EC4899"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+
+                <div class="comparison-card after">
+                    <div class="comparison-header">
+                        <div class="comparison-icon success"></div>
+                        <h3>Con BINAH</h3>
+                    </div>
+                    <div class="comparison-example">
+                        <div class="prompt-box">
+                            <span class="prompt-label">Tu prompt:</span>
+                            <p>"Resume este PDF"</p>
+                        </div>
+                        <div class="optimization-badge">
+                            <span>BINAH optimiza automáticamente</span>
+                        </div>
+                        <div class="result-box excellent">
+                            <span class="result-label">Resultado Profesional:</span>
+                            <ul>
+                                <li>Análisis estructurado y profundo</li>
+                                <li>Formato profesional con secciones</li>
+                                <li>Insights accionables extraídos</li>
+                                <li>40% menos tokens utilizados</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="how-it-works-flow">
+                <h3 class="flow-title">Cómo Funciona BINAH</h3>
+                <div class="flow-steps">
+                    <div class="flow-step">
+                        <div class="step-number">01</div>
+                        <div class="step-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M8 20h24M20 8v24" stroke="#8B5CF6" stroke-width="2.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Escribes Naturalmente</h4>
+                        <p>Expresa tu necesidad en lenguaje cotidiano, sin técnicismos</p>
+                    </div>
+
+                    <div class="flow-connector"></div>
+
+                    <div class="flow-step">
+                        <div class="step-number">02</div>
+                        <div class="step-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <circle cx="20" cy="20" r="12" stroke="#8B5CF6" stroke-width="2.5"/>
+                                <circle cx="20" cy="20" r="6" fill="#8B5CF6"/>
+                            </svg>
+                        </div>
+                        <h4>IA Analiza & Optimiza</h4>
+                        <p>DeepSeek R1 consulta el grafo de conocimiento en Neo4j</p>
+                    </div>
+
+                    <div class="flow-connector"></div>
+
+                    <div class="flow-step">
+                        <div class="step-number">03</div>
+                        <div class="step-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M12 20l6 6 10-12" stroke="#8B5CF6" stroke-width="2.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Obtienes Resultados Pro</h4>
+                        <p>Prompt arquitectónicamente optimizado ejecutado en el mejor modelo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Características</span>
+                <h2 class="section-title">
+                    Tecnología que te da <span class="gradient-text">ventaja competitiva</span>
+                </h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" stroke="url(#grad1)" stroke-width="2"/>
+                            <circle cx="24" cy="24" r="12" stroke="url(#grad1)" stroke-width="2"/>
+                            <circle cx="24" cy="24" r="4" fill="url(#grad1)"/>
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8B5CF6"/>
+                                    <stop offset="100%" style="stop-color:#EC4899"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Grafo de Conocimiento Inteligente</h3>
+                    <p>Neo4j almacena heurísticas de razonamiento, preferencias sintácticas y benchmarks de cada modelo de IA. El sistema aprende con cada uso.</p>
+                    <ul class="feature-list">
+                        <li>500+ patrones de optimización</li>
+                        <li>Aprende continuamente</li>
+                        <li>Específico por industria</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M12 24l8 8 16-16" stroke="url(#grad2)" stroke-width="3" stroke-linecap="round"/>
+                            <defs>
+                                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8B5CF6"/>
+                                    <stop offset="100%" style="stop-color:#EC4899"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Selección Automática del Mejor Modelo</h3>
+                    <p>BINAH analiza tu tarea y elige entre Claude, GPT-4, Gemini, DeepSeek según efectividad, costo y velocidad.</p>
+                    <ul class="feature-list">
+                        <li>Optimización costo-beneficio</li>
+                        <li>Routing inteligente</li>
+                        <li>Multi-modelo seamless</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8" y="12" width="32" height="24" rx="2" stroke="url(#grad3)" stroke-width="2"/>
+                            <path d="M16 20h16M16 28h10" stroke="url(#grad3)" stroke-width="2" stroke-linecap="round"/>
+                            <defs>
+                                <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8B5CF6"/>
+                                    <stop offset="100%" style="stop-color:#EC4899"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Heurísticas Modelo-Específicas</h3>
+                    <p>Cada IA piensa diferente. Claude prefiere XML, GPT-4 funciona mejor con ejemplos. BINAH conoce estas preferencias.</p>
+                    <ul class="feature-list">
+                        <li>Chain-of-Thought optimizado</li>
+                        <li>Sintaxis nativa por modelo</li>
+                        <li>Templates industry-specific</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 8v32M8 24h32" stroke="url(#grad4)" stroke-width="2"/>
+                            <circle cx="24" cy="12" r="3" fill="url(#grad4)"/>
+                            <circle cx="24" cy="36" r="3" fill="url(#grad4)"/>
+                            <circle cx="12" cy="24" r="3" fill="url(#grad4)"/>
+                            <circle cx="36" cy="24" r="3" fill="url(#grad4)"/>
+                            <defs>
+                                <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8B5CF6"/>
+                                    <stop offset="100%" style="stop-color:#EC4899"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Optimización de Tokens</h3>
+                    <p>Context caching, chunking inteligente y estrategias específicas reducen costos hasta 40% sin perder calidad.</p>
+                    <ul class="feature-list">
+                        <li>Context caching automático</li>
+                        <li>Chunk size óptimo</li>
+                        <li>ROI medible</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 8C15.163 8 8 15.163 8 24s7.163 16 16 16 16-7.163 16-16" stroke="url(#grad5)" stroke-width="2"/>
+                            <path d="M32 12l8 8-8 8" stroke="url(#grad5)" stroke-width="2" stroke-linecap="round"/>
+                            <defs>
+                                <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8B5CF6"/>
+                                    <stop offset="100%" style="stop-color:#EC4899"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Aprendizaje Continuo</h3>
+                    <p>Cada interacción mejora el grafo. Tu feedback entrena al sistema para tu caso de uso específico.</p>
+                    <ul class="feature-list">
+                        <li>Feedback loop automático</li>
+                        <li>A/B testing integrado</li>
+                        <li>Mejora exponencial</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="12" y="8" width="24" height="32" rx="2" stroke="url(#grad6)" stroke-width="2"/>
+                            <path d="M20 16h8M20 24h8M20 32h5" stroke="url(#grad6)" stroke-width="2" stroke-linecap="round"/>
+                            <defs>
+                                <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8B5CF6"/>
+                                    <stop offset="100%" style="stop-color:#EC4899"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Explainability Total</h3>
+                    <p>Entiende exactamente por qué BINAH eligió ese modelo, esa heurística y esa estructura. Transparencia completa.</p>
+                    <ul class="feature-list">
+                        <li>Dashboard de decisiones</li>
+                        <li>Estimación de costos</li>
+                        <li>Reasoning visible</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Casos de Uso</span>
+                <h2 class="section-title">
+                    Verticales que transformamos
+                </h2>
+            </div>
+
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon legal"></div>
+                    <h3>Legal</h3>
+                    <p>Análisis de contratos, discovery legal, compliance</p>
+                    <div class="use-case-metric">94% efectividad</div>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon finance"></div>
+                    <h3>Finanzas</h3>
+                    <p>Reportes, análisis de riesgo, due diligence</p>
+                    <div class="use-case-metric">40% ahorro</div>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon research"></div>
+                    <h3>Research</h3>
+                    <p>Papers, meta-análisis, síntesis de literatura</p>
+                    <div class="use-case-metric">10x velocidad</div>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon healthcare"></div>
+                    <h3>Healthcare</h3>
+                    <p>Análisis clínicos, diagnósticos asistidos</p>
+                    <div class="use-case-metric">HIPAA ready</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Precios</span>
+                <h2 class="section-title">
+                    Un plan para cada necesidad
+                </h2>
+                <p class="section-subtitle">
+                    Empieza gratis. Escala cuando lo necesites. Sin sorpresas.
+                </p>
+            </div>
+
+            <div class="pricing-toggle">
+                <span class="toggle-label">Mensual</span>
+                <button class="toggle-switch" id="pricing-toggle">
+                    <span class="toggle-slider"></span>
+                </button>
+                <span class="toggle-label">Anual <span class="discount-badge">-20%</span></span>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Starter Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <p class="pricing-description">Para individuos y freelancers</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount" data-monthly="0" data-yearly="0">0</span>
+                        <span class="price-period">/mes</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-included">50 prompts optimizados/mes</li>
+                        <li class="feature-included">Acceso a 3 modelos IA</li>
+                        <li class="feature-included">Heurísticas básicas</li>
+                        <li class="feature-included">Dashboard de métricas</li>
+                        <li class="feature-excluded">Grafo personalizado</li>
+                        <li class="feature-excluded">API access</li>
+                        <li class="feature-excluded">Soporte prioritario</li>
+                    </ul>
+                    <a href="#signup" class="btn-outline btn-full">Comenzar Gratis</a>
+                </div>
+
+                <!-- Professional Plan -->
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Más Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <p class="pricing-description">Para equipos y pequeñas empresas</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount" data-monthly="299" data-yearly="239">299</span>
+                        <span class="price-period">/mes</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-included">5,000 prompts/mes</li>
+                        <li class="feature-included">Todos los modelos IA</li>
+                        <li class="feature-included">500+ heurísticas avanzadas</li>
+                        <li class="feature-included">Analytics completo</li>
+                        <li class="feature-included">1 vertical personalizado</li>
+                        <li class="feature-included">API access (50K calls/mes)</li>
+                        <li class="feature-included">Soporte email prioritario</li>
+                    </ul>
+                    <a href="#signup" class="btn-primary btn-full">Empezar Ahora</a>
+                    <p class="pricing-note">14 días de prueba gratis. Sin tarjeta de crédito.</p>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <p class="pricing-description">Para organizaciones con alto volumen</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-custom">Personalizado</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-included">Prompts ilimitados</li>
+                        <li class="feature-included">Todos los modelos + custom</li>
+                        <li class="feature-included">Grafo industry-specific</li>
+                        <li class="feature-included">White-label disponible</li>
+                        <li class="feature-included">Verticales ilimitados</li>
+                        <li class="feature-included">API unlimited</li>
+                        <li class="feature-included">Account manager dedicado</li>
+                        <li class="feature-included">SLA 99.9% uptime</li>
+                        <li class="feature-included">SOC2 compliance</li>
+                        <li class="feature-included">On-premise deployment</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline btn-full">Contactar Ventas</a>
+                </div>
+            </div>
+
+            <div class="pricing-faq">
+                <h3>Preguntas Frecuentes</h3>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>¿Qué es un "prompt optimizado"?</h4>
+                        <p>Cada vez que envías una consulta, BINAH la analiza, consulta el grafo de conocimiento y construye un prompt arquitectónicamente optimizado que se ejecuta en el modelo más adecuado.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Puedo cambiar de plan?</h4>
+                        <p>Sí, puedes actualizar o bajar de plan en cualquier momento. Los cambios se reflejan en tu próximo ciclo de facturación.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Qué modelos de IA soportan?</h4>
+                        <p>Claude (Opus, Sonnet, Haiku), GPT-4, GPT-3.5, Gemini Pro, DeepSeek R1, y estamos añadiendo más constantemente.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Cómo funciona el grafo personalizado?</h4>
+                        <p>En planes Pro y Enterprise, el grafo aprende de tus patrones de uso específicos y se adapta a tu industria, mejorando continuamente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Deja de perder tiempo y dinero en prompts ineficientes</h2>
+                <p>Únete a cientos de equipos que ya optimizan su IA con BINAH</p>
+                <div class="cta-buttons">
+                    <a href="#pricing" class="btn-primary btn-large">
+                        Prueba Gratis 14 Días
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#demo" class="btn-secondary btn-large">Agendar Demo</a>
+                </div>
+                <p class="cta-note">No se requiere tarjeta de crédito. Setup en menos de 5 minutos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text">BINAH</span>
+                    </div>
+                    <p>Optimización inteligente de prompts impulsada por grafos de conocimiento.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#pricing">Precios</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#docs">Documentación</a></li>
+                        <li><a href="#api">API Reference</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#case-studies">Casos de Éxito</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#privacy">Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 BINAH Intelligence Network. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#terms">Términos de Servicio</a>
+                    <span>·</span>
+                    <a href="#privacy">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
